@@ -20,7 +20,7 @@ void main() async {
 
   final socketManager = SocketManager(
     // 'http://mountainfight.herokuapp.com'
-    "https://secret-island-28214.herokuapp.com/"
+    "https://frozen-peak-24814.herokuapp.com/"
     );
   BonfireInjector.instance.put((i) => socketManager);
   BonfireInjector.instance.put((i) => LocalPlayerController(i.get()));
